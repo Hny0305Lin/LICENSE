@@ -22,18 +22,18 @@ LICENSE: 我在GitHub、Gitee和Haohanyh云基础服务产品平台Gits等你
 中心想法：写一份中国人自己的开源协议，保护管理者或管理团队的作品著作、版权等正义行为，确立使用者的开发带协议的开源项目、开源代码做法。
 
 名词解释：
-    开源：一种将协议保护的作品由作者，自行在代码内标记（例如注释行为）或包含进项目使用该协议行为，通过各种途径（例如互联网、使用媒介打包传播等）开放的动作。
-    商业化：一种将协议保护的作品由作者，自行在代码内标记（例如注释行为）或包含进项目使用该协议并带上可商业化的行为，通过各种途径（例如互联网、使用媒介打包传播等）进行（例如盈利、授权）的动作。
+    开源：一种将协议保护的作品由作者，自行在源代码内标记（例如注释行为）或包含进项目使用该协议行为，通过各种途径（例如互联网、使用媒介打包传播等）开放的动作。
+    商业化：一种将协议保护的作品由作者，自行在源代码内标记（例如注释行为）或包含进项目使用该协议并带上可商业化的行为，通过各种途径（例如互联网、使用媒介打包传播等）进行（例如盈利、授权）的动作。
     违反：一种将行为或思想，不符合协议和当地法律等要求的动作。
 
 第零章：
 
-    第一点：协议最终解释权，为浩瀚银河和管理员或管理团队，浩瀚银河只享有协议杜撰、协议分享等符合现有当地法律行为，浩瀚银河不承担使用此协议违法当地法律规定的犯罪行为。
+    第一点：协议最终解释权，为浩瀚银河和管理员或管理团队，浩瀚银河只享有协议杜撰、协议分享等符合现有当地法律行为（不会影响丙方对源代码等作品的著作权等重要权力），浩瀚银河不承担使用此协议违法当地法律规定的犯罪行为。
     第二点：浩瀚银河只是一个团队，但浩瀚银河至始至终都会享有该协议的著作权等符合现有当地法律的权力（毕竟是我们写的）。
 
 第一章：
 
-    第一点：使用了该协议的计算机软件产品的管理者或管理团队，必须在代码内包含该协议的任意提示信息（例如注释、下载链接）。更多信息在第二章第一节。
+    第一点：使用了该协议的计算机软件产品的管理者或管理团队，必须在源代码内包含该协议的任意提示信息（例如注释、下载链接）。更多信息在第二章第一节。
     第二点：使用了该协议的计算机软件产品的管理者或管理团队，必须清楚标记是否源代码开放，如开放，请按照第一章第一点做好使用协议的工作，否则请您不要选择我们的协议。
     第三点：介于第一章第二点，使用了该协议的计算机软件产品的管理者或管理团队，如果您选择了使用协议开源，请按照第一章第一点和第二章第二点做好使用协议的工作。
     第四点：介于第一章第二点，使用了该协议的计算机软件产品的管理者或管理团队，如果您需要在其他产品上引用协议的软件或代码，请与软件制作方联系，如允许开源，请按照第一章第一点做好使用协议的工作，否则请您不要选择我们的协议。
@@ -55,6 +55,8 @@ LICENSE: 我在GitHub、Gitee和Haohanyh云基础服务产品平台Gits等你
         HTML / XML            <!-- 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE -->
         C / C++ / Java / JS     // 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE
         C / C++ / Java / JS     /* 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE */
+        C#(CSharp)             /// 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE ///
+        (Ps:CSharp有一些特殊，不过能注释就行)
         Matlab                   % 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE
         Pasca                    { 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE }
         Delphi                   { 受Haohanyh Computer Software Products Open Source LICENSE保护 https://git.haohanyh.top:3001/Haohanyh/LICENSE }
@@ -71,7 +73,7 @@ LICENSE: 我在GitHub、Gitee和Haohanyh云基础服务产品平台Gits等你
         （例如文件属性标记、文件版权标记、水印标记等明显位置的强有力的技术行为）
     第三点：如您希望协议使用在您的开源项目or开源代码等，但您还希望能包含更多信息，那么您可按照下方标记版权↓。
     ```
-    版权 [2022] © [作者或可追溯到您的标记名]
+    版权 [时间] © [作者或可追溯到您的标记名]
     [软件名字] 使用 浩瀚银河计算机软件产品源代码开放协议
     [开源情况，简单的概述]
     ```
